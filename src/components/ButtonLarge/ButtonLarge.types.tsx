@@ -1,9 +1,12 @@
 import { GeneralStylesProps } from "shared/styles";
 
+export type VariationType =  'primary' | 'secundary'| 'outline' |'ghost';
+export type IconPositionType =  'none' | 'left' | 'right' | 'centerleft' | 'centerRight';
+
 export interface ButtonLargeProps  extends GeneralStylesProps{
-    title:string,
-    variation: 'primary' | 'secundary'| 'outline' |'ghost',
-    icon?: Element;
-    iconPosition: 'none' | 'left' | 'right' | 'centerleft' | 'centerRight', 
-    // outline?: boolean,
+    title: string,
+    variation: VariationType,
+    icon?: React.ReactNode;
+    iconPosition: IconPositionType, 
+    disabled?: boolean,
 }
