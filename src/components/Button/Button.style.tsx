@@ -1,22 +1,22 @@
 import styled from "styled-components";
 import colors from "../../styles/colors";
-import { ButtonLargeProps } from "./ButtonLarge.types";
+import { ButtonProps } from "./Button.types";
 
-export const BackgroundColor: Record<ButtonLargeProps['variation'], string> = {
+export const BackgroundColor: Record<ButtonProps['variation'], string> = {
     primary: colors.yellow500,
     secundary: colors.gray100,
     outline: colors.white,
     ghost: colors.transparent,
 };
 
-export const BackgroundColorDisabled: Record<ButtonLargeProps['variation'], string> = {
+export const BackgroundColorDisabled: Record<ButtonProps['variation'], string> = {
     primary: colors.gray500,
     secundary: colors.gray500,
     outline: colors.transparent,
     ghost: colors.transparent,
 };
 
-export const FlexAlign: Record<ButtonLargeProps['iconPosition'], string> = {
+export const FlexAlign: Record<ButtonProps['iconPosition'], string> = {
     none: 'center',
     left: 'space-between',
     right: 'space-between',
@@ -25,14 +25,14 @@ export const FlexAlign: Record<ButtonLargeProps['iconPosition'], string> = {
 };
 
 
-export const Container = styled.button<ButtonLargeProps>`
+export const Container = styled.button<ButtonProps>`
    display: flex;
    justify-content: ${props=> FlexAlign[props.iconPosition] || 'center'};
    align-items: ${props=> FlexAlign[props.iconPosition] || 'center'};
    background-color: ${(props) => BackgroundColor[props.variation] || colors.transparent};
    width: ${props=> props.width || 100}%;
    border: ${props=>props.variation === 'outline' ? '2px solid'+ colors.black : 'none'};
-   padding: 20px 16px;
+   padding: ${props=>props.small? '7.5px 16px' : '20px 16px'};
    border-radius: 8px;
    cursor: pointer;
 
