@@ -1,15 +1,17 @@
-import React from 'react';
-import ButtonCounter from 'components/ButtonCounter';
+import React, { useState } from 'react';
 import GlobalStyle from './styles/global';
-import { TextBodyMidium } from 'styles/general';
+
+import Input from 'components/Input';
 
 const App: React.FC = () => {
-
+  const [value, setValue] = useState('')
   return(
   <>
    <GlobalStyle />
-    <ButtonCounter min={0} max={5}/>
-    <TextBodyMidium>Almost before</TextBodyMidium>
+   <div style={{padding: 100}}>
+    <Input variation="default" value={value} onChange={(v)=>setValue(v.currentTarget.value)}/>
+    <Input disabled variation="default" value={value} onChange={(v)=>setValue(v.currentTarget.value)}/>
+   </div>
   </>
 )};
 
