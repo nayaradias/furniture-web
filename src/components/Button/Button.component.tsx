@@ -1,6 +1,6 @@
 import BagIcon from 'assets/icons/bag';
 import React from 'react';
-import { TextBodyMidium } from 'styles/general';
+import { Body1Medium } from 'styles/general';
 import { Container, Hidden } from './Button.style';
 import { ButtonProps } from './Button.types';
 
@@ -10,14 +10,14 @@ const Button: React.FC<ButtonProps> = (props) => {
 
   const contentIcon =  (icon? icon: <BagIcon />);
 
-  const contentNone = (<TextBodyMidium>{title}</TextBodyMidium>);
+  const contentNone = (<Body1Medium>{title}</Body1Medium>);
 
   const contentRight = (
     <>
       <Hidden />
-      <TextBodyMidium>
+      <Body1Medium>
         {title}
-      </TextBodyMidium>
+      </Body1Medium>
      {contentIcon}
     </>
   );
@@ -25,18 +25,18 @@ const Button: React.FC<ButtonProps> = (props) => {
   const contentLeft = (
     <>
       {contentIcon}
-      <TextBodyMidium>
+      <Body1Medium>
         {title}
-      </TextBodyMidium>
+      </Body1Medium>
       <Hidden />
     </>
   );
 
   const contentCenterRight = (
     <>
-      <TextBodyMidium marginRight={8}>
+      <Body1Medium marginRight={8}>
         {title}
-      </TextBodyMidium>
+      </Body1Medium>
      {contentIcon}
     </>
   );
@@ -44,9 +44,9 @@ const Button: React.FC<ButtonProps> = (props) => {
   const contentCenterleft = (
     <>
       {contentIcon}
-      <TextBodyMidium marginLeft={8}>
+      <Body1Medium marginLeft={8}>
         {title}
-      </TextBodyMidium>
+      </Body1Medium>
     </>
   );
 
