@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextBodyMidium } from 'styles/general';
+import { Body1Medium } from 'styles/general';
 import { Container} from './InputRange.style';
 import { InputRangeProps } from './InputRange.types';
 
@@ -23,8 +23,8 @@ const mySlider = document.getElementsByClassName("id");
 return (
     <Container variation={variation} onChange={onChange}>
       <div className='text-container'>
-        <TextBodyMidium>{textLeft[variation]}</TextBodyMidium>
-        <TextBodyMidium>{textRight[variation]}</TextBodyMidium>
+        <Body1Medium>{textLeft[variation]}</Body1Medium>
+        <Body1Medium>{textRight[variation]}</Body1Medium>
       </div>
       <input className='id' type="range" min={min} max={max} value={value} onChange={onChange} />
     </Container>
