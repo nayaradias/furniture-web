@@ -1,7 +1,7 @@
 import React from 'react';
-import colors from '../../styles/colors';
+import colors from 'styles/colors';
 
-const PlusIcon = (props: React.SVGProps<SVGSVGElement>) => {
+export default function IconPlus(props: React.SVGProps<SVGSVGElement>) {
     const { width = 20, height = 20, color = colors.black } = props;
     return (
         <svg width={width} height={height} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -9,4 +9,3 @@ const PlusIcon = (props: React.SVGProps<SVGSVGElement>) => {
         </svg>
     )
 }
-export default PlusIcon;
