@@ -1,0 +1,11 @@
+export { default as DenmarkImage } from './denmark.png';
+export { default as FranceImage } from './france.png';
+export { default as GermanyImage } from './germany.png';
+export { default as GreatBritainImage } from './great-britain.png';
+export { default as ItalyImage } from './italy.png';
+export { default as MastercardImage } from './mastercard.png';
+export { default as NetherlandsImage } from './netherlands.png';
+export { default as PolandImage } from './poland.png';
+export { default as RussiaImage } from './russia.png';
+export { default as UsaImage } from './usa.png';
+export { default as VisaImage } from './visa.png';
