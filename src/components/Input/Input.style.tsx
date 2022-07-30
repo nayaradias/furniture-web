@@ -6,7 +6,7 @@ import { InputProps } from "./Input.types";
 export const Container = styled.div<InputProps>`
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
   width: 100%;
  
@@ -15,7 +15,7 @@ export const Container = styled.div<InputProps>`
         height: 64px;
         background-color: ${colors.gray100};
         border-radius: 8px;
-        border: none;
+        border: ${props => !!props.error ? `1px solid ${colors.red400}` : 'none'};
         padding: 20px 16px;
         font-family: ${fonts.PoppinsRegular} ;
         font-size: 16px;
@@ -23,7 +23,7 @@ export const Container = styled.div<InputProps>`
         color: ${colors.black};
 
         :focus{
-          outline: ${colors.gray300} solid 1px ;
+          outline: ${props => !!props.error ? colors.red400 : colors.gray300} solid 1px;
         }
 
         ::placeholder{

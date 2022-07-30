@@ -7,5 +7,6 @@ export interface InputProps  extends GeneralStylesProps{
     value?: string,
     placeholder?: string,
     disabled?: boolean,
+    error?: string,
     onChange: React.ChangeEventHandler<HTMLInputElement> | undefined,
 }
