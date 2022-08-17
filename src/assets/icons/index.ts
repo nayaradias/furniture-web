@@ -34,3 +34,7 @@ export { default as  IconPin } from './pin';
 export { default as  IconErase } from './erase';
 export { default as  IconEyeClosed } from './eye-closed';
 export { default as  IconEye } from './eye';
+export { default as  IconFilter } from './filter';
+export { default as  IconFriendly } from './friendly';
+export { default as  IconHeartFilled } from './heart-filled';
+export { default as  IconHeart } from './heart';
