@@ -39,3 +39,8 @@ export { default as  IconFriendly } from './friendly';
 export { default as  IconHeartFilled } from './heart-filled';
 export { default as  IconHeart } from './heart';
 export { default as  IconInfo } from './info';
+export { default as  IconLoader } from './loader';
+export { default as  IconLocation } from './location';
+export { default as  IconLock } from './lock';
+export { default as  IconLogotype } from './logotype';
+export { default as  IconLogout } from './logout';
