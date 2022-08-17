@@ -44,3 +44,5 @@ export { default as  IconLocation } from './location';
 export { default as  IconLock } from './lock';
 export { default as  IconLogotype } from './logotype';
 export { default as  IconLogout } from './logout';
+export { default as  IconMicro } from './micro';
+export { default as  IconMore } from './more';
