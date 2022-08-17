@@ -38,3 +38,4 @@ export { default as  IconFilter } from './filter';
 export { default as  IconFriendly } from './friendly';
 export { default as  IconHeartFilled } from './heart-filled';
 export { default as  IconHeart } from './heart';
+export { default as  IconInfo } from './info';
