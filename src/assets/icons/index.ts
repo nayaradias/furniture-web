@@ -30,3 +30,7 @@ export { default as  IconDirectionHorizontal } from './direction-horizontal';
 export { default as  IconDirectionVertical } from './direction-vertical';
 export { default as  IconDisappointed } from './disappointed';
 export { default as  IconDissatisfied } from './dissatisfied';
+export { default as  IconPin } from './pin';
+export { default as  IconErase } from './erase';
+export { default as  IconEyeClosed } from './eye-closed';
+export { default as  IconEye } from './eye';
