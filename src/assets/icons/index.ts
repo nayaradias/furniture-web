@@ -58,3 +58,6 @@ export { default as  IconSmiley } from './smiley';
 export { default as  IconStarFilled } from './star-filled';
 export { default as  IconStar } from './star';
 export { default as  IconSubsctract } from './subsctract';
+export { default as  IconTrash } from './trash';
+export { default as  IconUnlock } from './unlock';
+export { default as  IconUser } from './user';
