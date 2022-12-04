@@ -1,4 +1,4 @@
-import { GeneralStylesProps } from "shared/styles";
+import { GeneralStylesProps } from "types/styles.typings";
 
 export interface CheckRadioProps  extends GeneralStylesProps{
     checked?: boolean,

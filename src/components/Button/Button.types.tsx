@@ -1,4 +1,4 @@
-import { GeneralStylesProps } from "shared/styles";
+import { GeneralStylesProps } from "types/styles.typings";
 
 export type VariationType =  'primary' | 'secundary'| 'outline' |'ghost';
 export type IconPositionType =  'none' | 'left' | 'right' | 'centerleft' | 'centerRight';

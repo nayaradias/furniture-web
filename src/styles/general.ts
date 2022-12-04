@@ -1,4 +1,4 @@
-import { GeneralStylesProps } from 'shared/styles';
+import { GeneralStylesProps } from 'types/styles.typings';
 import styled from 'styled-components';
 import colors from './colors';
 

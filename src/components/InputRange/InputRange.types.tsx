@@ -1,4 +1,4 @@
-import { GeneralStylesProps } from "shared/styles";
+import { GeneralStylesProps } from "types/styles.typings";
 
 export type InputRangeVariationType =  'none' | 'price'| 'number';
 
