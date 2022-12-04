@@ -4,3 +4,4 @@ export { default as  ButtonCounter } from './ButtonCounter';
 export { default as  CheckRadio } from './CheckRadio';
 export { default as  Input } from './Input';
 export { default as  InputRange } from './InputRange';
+export { default as  ToggleSwitch } from './ToggleSwitch';

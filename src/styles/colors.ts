@@ -27,4 +27,7 @@ export default{
     green300: '#81C784',
     green200: '#A5D6A7',
     green100: '#C8E6C9',
+    shadow10: 'rgba(119,119,119,0.10)',
+    shadow40: 'rgba(119,119,119,0.40)',
+    innerShadow:'#FFEF8B',
 }
