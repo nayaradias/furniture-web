@@ -10,7 +10,7 @@ const IndicatorSteps: React.FC<IndicatorStepsProps> = (props) => {
     <Container>
       {
         Array.from(Array(steps).keys()).map(i => (
-          <Content key={i} active={current === i} />
+          <Content key={i} active={current === i}/>
         ))
       }
     </Container>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import colors from "../../styles/colors";
+import { IndicatorStepsProps } from "./IndicatorSteps.types";
 
 export const Container = styled.div`
    display: flex;
@@ -8,7 +9,7 @@ export const Container = styled.div`
    justify-content: center;
 `;
 
-export const Content = styled.div<{ active: boolean }>`
+export const Content = styled.div<Pick<IndicatorStepsProps,'active'>>`
    display: flex;
    justify-content: center;
    align-items: center;
