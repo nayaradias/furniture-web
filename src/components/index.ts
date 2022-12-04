@@ -6,3 +6,4 @@ export { default as  Input } from './Input';
 export { default as  InputRange } from './InputRange';
 export { default as  ToggleSwitch } from './ToggleSwitch';
 export { default as  IndicatorSteps } from './IndicatorSteps';
+export { default as  Chips } from './Chips';
