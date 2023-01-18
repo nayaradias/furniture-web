@@ -7,7 +7,7 @@ export const Container = styled.button<AvatarProps>`
    justify-content: center;
    align-items: center;
    border-radius: 100px;
-   padding: ${props=>props.image ? 1: 16}px;
+   padding: ${props=> !!props.imageUrl ? 1: (props?.size|| 0) - 43}px;
    background-color: ${colors.gray100};
    border: 1px solid ${colors.gray200};
    width: ${props=>props.size  || 56}px;
