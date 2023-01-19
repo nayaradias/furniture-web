@@ -10,4 +10,5 @@ export interface ButtonProps  extends GeneralStylesProps{
     iconPosition: IconPositionType, 
     disabled?: boolean,
     small?: boolean,
+    onClick: () => void,
 }

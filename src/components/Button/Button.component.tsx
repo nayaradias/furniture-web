@@ -6,7 +6,7 @@ import { ButtonProps } from './Button.types';
 
 const Button: React.FC<ButtonProps> = (props) => {
   
-  const { title, iconPosition, variation, icon , disabled, small } = props;
+  const { title, iconPosition, variation, icon , disabled, small, onClick } = props;
 
   const contentIcon =  (icon? icon: <BagIcon />);
 
@@ -57,6 +57,7 @@ const Button: React.FC<ButtonProps> = (props) => {
       iconPosition={iconPosition}
       disabled={disabled}
       small={small}
+      onClick={onClick}
     >
       {iconPosition === 'none' && contentNone}
       {iconPosition === 'left' && contentLeft}
