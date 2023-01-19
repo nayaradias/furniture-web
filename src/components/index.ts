@@ -1,4 +1,5 @@
 export { default as  Avatar } from './Avatar';
+export { default as  Block } from './Block';
 export { default as  Button } from './Button';
 export { default as  ButtonCounter } from './ButtonCounter';
 export { default as  CheckRadio } from './CheckRadio';
@@ -7,3 +8,4 @@ export { default as  InputRange } from './InputRange';
 export { default as  ToggleSwitch } from './ToggleSwitch';
 export { default as  IndicatorSteps } from './IndicatorSteps';
 export { default as  Chips } from './Chips';
+export { default as  SnackBar } from './SnackBar';
